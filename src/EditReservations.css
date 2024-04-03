@@ -1,0 +1,78 @@
+.edit-reservations-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+ 
+  .edit-reservations-container h1 {
+    text-align: center;
+    color: #333;
+  }
+ 
+  .edit-reservations-container .reservation-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: white;
+  }
+ 
+  .edit-reservations-container .reservation-item p {
+    margin: 5px 0;
+  }
+ 
+  .edit-reservations-container .time-slots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+ 
+  .edit-reservations-container .time-slot {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+  }
+ 
+  .edit-reservations-container .time-slot.selected,
+  .edit-reservations-container .time-slot:hover {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+ 
+  .edit-reservations-container .time-slot.unavailable {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+ 
+  .edit-reservations-container button {
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+ 
+  .edit-reservations-container button:hover {
+    background-color: #218838;
+  }
+ 
+  .edit-reservations-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+ 
+  .edit-reservations-container .message {
+    color: red;
+    text-align: center;
+  }

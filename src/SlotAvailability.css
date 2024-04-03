@@ -1,0 +1,27 @@
+.seat-plan {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr); 
+  grid-gap: 10px; 
+}
+
+.row {
+  display: flex;
+}
+
+.seat {
+  width: 50px; 
+  height: 50px; 
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.available {
+  background-color: #c3e6cb; 
+}
+
+.reserved {
+  background-color: #f5c6cb; 
+}

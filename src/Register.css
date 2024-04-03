@@ -1,0 +1,105 @@
+body {
+    background-color: #cdcfc0;
+    font-family: 'Anonymous Pro', serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.left-panel {
+    background-color: #f1ebe5;
+    padding: 30px;
+    border-radius: 12px;
+    width: 50%;
+    margin-right: 30px;
+    margin-left: 25px;
+    border: 1px solid #423f32;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.input-field-register {
+    border: 1px solid #423f32;
+    background-color: #f1ebe5;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.register-button {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #cdcfc0;
+    border: 1px solid #423f32;
+    border-radius: 6px;
+    padding: 10px;
+    width: 25%;
+    margin-left: 485px;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.register-button:hover {
+    background-color: #b5b6ac;
+}
+
+
+.back-button-register {
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #676767;
+    color: #fff;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 20px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+
+.back-button-register:hover {
+    background-color: #565656;
+}
+
+.register-title {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 550px;
+    height: 300px;
+}
+
+.icon-text-register {
+    width: 300px;
+    height: 180px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f2937;
+    margin-top: 20px;
+}
+
+.bullet-text {
+    font-size: 14px;
+    color: #423f32;
+    padding-left: 20px;
+}

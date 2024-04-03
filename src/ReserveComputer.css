@@ -1,0 +1,83 @@
+ .reserve-computer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-between;
+  }
+ 
+  .seating-arrangement {
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+ 
+  .seats-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    padding: 20px;
+  }
+ 
+  .seat {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.1s ease-in;
+  }
+ 
+  .seat:hover {
+    transform: translateY(-3px);
+   
+  }
+ 
+  .seat.reserved {
+    background-color: #f44336;
+    cursor: not-allowed;
+  }
+ 
+  .seat.available {
+    background-color: #679e69;
+  }
+ 
+  h3 {
+    margin-bottom: 15px;
+  }
+
+
+  .time-slots {
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+   
+  }
+ 
+  .time-slot {
+   
+    padding: 5px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    grid-template-columns: repeat(3,1fr);
+  }
+ 
+  .time-slot:hover {
+    background-color: #e8e8e8;
+  } 
+
+
+  .time-slot {
+    background-color: green; /* Default background color */
+    /* Other styling properties */
+  }
+  
+  .time-slot.occupied {
+    background-color: red; /* Background color for occupied timeslots */
+  }
+  

@@ -1,0 +1,60 @@
+body {
+  font-family: 'Cormorant Garamond', sans-serif;
+  margin: 0;
+  padding: 2rem;
+  height: 100vh;
+}
+
+.profile-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f1ebe5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 1px solid #423f32;
+}
+
+.profile-title {
+  font-family: 'Cormorant Garamond', serif;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-details p {
+  font-family: 'Cormorant Garamond', serif;
+  color: #666;
+  line-height: 1.6;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.input-field {
+  display: block;
+  width: 97%;
+  padding: 8px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile-details button {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #cdcfc0;
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-button-container {
+  text-align: right;
+}
+
+.profile-details button:hover {
+  background-color: #cdcfc0;
+}
